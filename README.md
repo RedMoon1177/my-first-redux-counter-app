@@ -1,1 +1,2 @@
 # my-first-redux-counter-app
+In this simple app, Redux is used to manage the counter state (count) in the Redux store. The CounterComponent connects to the Redux store using useSelector to get the current count value and the input from users and useDispatch to dispatch actions (INCREMENT and DECREMENT) to update the count. The Provider component from react-redux makes the Redux store available to all components in the application.
